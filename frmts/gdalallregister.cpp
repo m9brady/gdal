@@ -449,6 +449,10 @@ void CPL_STDCALL GDALAllRegister()
     GDALRegister_RS2();
 #endif
 
+#ifdef FRMT_rcm
+    GDALRegister_RCM();
+#endif
+
 #ifdef FRMT_safe
     GDALRegister_SAFE();
 #endif

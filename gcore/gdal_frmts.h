@@ -112,6 +112,7 @@ void CPL_DLL GDALRegister_LAN(void);
 void CPL_DLL GDALRegister_CPG(void);
 void CPL_DLL GDALRegister_AirSAR(void);
 void CPL_DLL GDALRegister_RS2(void);
+void CPL_DLL GDALRegister_RCM(void);
 void CPL_DLL GDALRegister_ILWIS(void);
 void CPL_DLL GDALRegister_PCRaster(void);
 void DeclareDeferredPCRasterPlugin(void);
